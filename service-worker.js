@@ -1,5 +1,5 @@
 const CACHE_NAME = 'version-1';
-const urlsToCache = ['/#/view'];
+const urlsToCache = ['/pay'];
 
 const self = this;
 

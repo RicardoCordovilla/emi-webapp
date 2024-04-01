@@ -16,8 +16,8 @@ function App() {
     <div className="App">
       <HashRouter>
         <Routes>
-          <Route path="/" element={<Pay />} />
-          <Route path="/view" element={<View />} />
+          <Route path="/pay" element={<Pay />} />
+          <Route path="/" element={<View />} />
         </Routes>
       </HashRouter>
     </div>

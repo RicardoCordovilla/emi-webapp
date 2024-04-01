@@ -14,7 +14,7 @@ const baseURL = 'https://emi-api-production.up.railway.app/api/pays'
 const View = () => {
 
     // const urlToPay = 'http://localhost:9000/'
-    const urlToPay = 'https://deuna-emi.netlify.app/'
+    const urlToPay = 'https://deuna-emi.netlify.app/#/pay'
 
     const [qrVisible, setQrVisible] = useState(false)
 
