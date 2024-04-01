@@ -61,11 +61,19 @@ const Pay = () => {
                     type="text"
                 />
 
-                <InputNumber inputId="currency-us"
+                {/* <InputNumber inputId="currency-us"
                     value={amount}
                     onValueChange={(e) => setAmount(e.value)}
                     // mode="currency" currency="USD" locale="en-US"
                     className='p-inputtext-lg p-d-block p-mb-2'
+                /> */}
+
+                <InputText className='p-inputtext-lg p-d-block p-mb-2'
+                    style={{ width: '100%', margin: '1rem 0' }}
+                    value={amount} onChange={(e) => setAmount(e.target.value)}
+                    placeholder="Monto"
+                    type="number"
+                    keyfilter={/^\d*\.?\d*$/}
                 />
 
 
