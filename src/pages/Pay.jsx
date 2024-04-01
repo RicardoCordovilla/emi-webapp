@@ -44,7 +44,7 @@ const Pay = () => {
 
     return (
         <>
-            <Card title="Pagar"
+            <Card title="Pagar  a Emilia Laz Salazar"
                 subTitle="Ingrese los datos"
                 style={{
                     width: '25rem', margin: 'auto', marginTop: '20px',
