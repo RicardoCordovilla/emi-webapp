@@ -66,7 +66,6 @@ const Pay = () => {
                     onValueChange={(e) => setAmount(e.value)}
                     // mode="currency" currency="USD" locale="en-US"
                     className='p-inputtext-lg p-d-block p-mb-2'
-                    type="number"
                 />
 
 
